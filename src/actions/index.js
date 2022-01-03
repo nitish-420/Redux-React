@@ -17,3 +17,13 @@ export const resetNumber=(num)=>{
         payload :num
     }
 }
+
+
+// export const showAlert=(message,alertType,timeOut=1000)=>dispatch=>{
+//     dispatch({type:"SETALERT",payload:{message,alertType}})
+//     setTimeout(()=>{dispatch({type:"REMOVEALERT"})},timeOut)
+// }
+// export const setGuest=()=>dispatch=>{
+//     dispatch({type:"SETGUEST"})
+// }
+// just adding this to remind go like above !
